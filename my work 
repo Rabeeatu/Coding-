@@ -1,1 +1,33 @@
-bgv
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=mobile-width, initial-scale=1.0">
+    <meta name ="author" content="rabiat Aliyu Abdullahi">
+    <title>Portfolio</title>
+    </head>
+   <style>
+    body{
+    background: black;
+    color :white;
+ background-repeat:no repeat; 
+ text-align: center ;
+ margin:200px 50px 50px 50px;
+}
+h2:first-letter{
+    font-size:50px;
+   
+}
+h2{
+    text-transform: uppercase;
+}
+a:hover{background: white;
+        color: black ;
+}
+</style>
+<body>
+    <h2>welcome to my webpage</h2>
+    <a href="my profile.html">click here</a>
+   
+</body>
+</html>
