@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=mobile-width, initial-scale=1.0">
+   <meta name="author"content="rabiat aliyu abdullahi">
+    </head>
+    <style>
+    #welcoming {
+    background-color: #55c1ff;
+    font-size:50px;
+    border:2px solid pink;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius:5px;
+    margin:5px;
+    padding : auto;
+}
+
+div{
+    border:2px solid pink;
+    padding:5px;
+    background: #55c1ff;
+    border-radius: 5px;
+}
+ h2{
+     text-align: center;
+     text-size:70%;
+ }
+ h2::after{
+    content:'';
+    position: absolute;
+    left:50%;
+    bottom:635px;
+    transform: translateX(-50%);
+    width:60px;
+    height:4px;
+    background-color:pink;
+    border-radius:2px;
+ } 
+  
+ #nav-bar{
+     position:fixed;
+     background-color:#55c1ff;
+     top:0;
+     display:inline-block;
+     }
+ a{
+     text-decoration:none;
+
+ }
+ #welcome-link, #about-link, #project-link, #media-link,#contact-link{
+     background-color: pink;
+     padding:7px;
+     border-radius:10px;
+     display: inline-block;
+ }
+ body{
+     background-color: #8098ff;
+ }
+ 
+   </style>
+  <body>
+      <div>
+          <h2>media</h2>
+          <nav id="nav-bar">
+            <a href="welcome.html"id="welcome-link">  welcome</a>
+         <a href="about.html"id="about-link">about</a>
+         <a href="recipes.html"id="project-link">project</a>
+        <a href="contact.html"id="contact-link">contact</a>
+       <a href="media.html"id="media-link">med</a>
+        </nav>
+  
+    </div> 
+<div>  
+     <iframe width="330" height="300" 
+        src="https://www.youtube.com/embed/wX6aNs6oatg" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+</iframe> 
+   <section id="map">
+      
+      <div>
+  <iframe width="300" height="60" src="https://vocaroo.com/embed/1btIvFmGxOVl?autoplay=0" frameborder="0" allow="autoplay"></iframe>
+</div></div>
+    </section>
+    
+  
+    </body>
+</html>
