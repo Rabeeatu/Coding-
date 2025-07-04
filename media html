@@ -7,7 +7,7 @@
     </head>
     <style>
     #welcoming {
-    background-color: #55c1ff;
+    background-color:#55c1ff;
     font-size:50px;
     border:2px solid pink;
     text-align: center;
