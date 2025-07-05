@@ -1,93 +1,109 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Rabiat Aliyu         Abdullahi">
-    <meta name="viewport" content="width=mobile-width, initial-scale=1.0">
-    <title>My profile</title>
-    <link rel="icon" href="new logo.jpg">
-    <link rel ="stylesheet" href="my profile.css">
-</head>
-<style>
-section ,h3{
-     background: #c0c0b0;
-     font-size:30px;
-     font-family: italic, sans-serif;
-     text-align: center;
-     border:5px solid #797979;
-     border-radius: 5px; 
-     box-shadow: 0 0 5px rgba(0, 0, 0, 1)
-}
-/* body{background: black; */
-img{
-    width:250px;
+    <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=mobile-width, initial-scale=1.0">
+   <meta name="author"content="rabiat aliyu abdullahi">
+    </head>
+    <style>
+ #profile-pic{
+      width:250px;
     height:250px;
     border-radius:200px;
+    margin-left:20px;
     padding:20px;
     box-shadow:0 0 5px rgba(0, 0, 0, 2);
-    /* border: 5px double pink; */
+ } 
+    #welcoming {
+    background-color: #55c1ff;
+    font-size:50px;
+    border:2px solid pink;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius:5px;
+    margin:5px;
+    padding : auto;
+}
+h2{font-size:40px;
 }
 
-h3{
-    padding:16px;
+img{
+    width:310px;
+    height:200px;
+    border:2px solid pink;
+    
 }
-a{background-color: #55c1ff;
-     padding:5px;
-     border:2px solid pink;
-     border-radius:10px;
-     text-decoration:none;
-     font-size:20px;
+div{
+    border:2px solid pink;
+    padding:5px;
+    background: #55c1ff;
+    border-radius: 5px;
 }
-a{background-color: #55c1ff;
-     padding:3px;
-     border:2px solid pink;
-     border-radius:10px;
-     text-decoration:none;
-     font-size:20px;
-}
- #nav-bar{
+p{text-align: center;
+  font-size:30px;
+  font-family: bold;}  
+ h1, h2{
+     text-align: center;
+     text-size:40%;
+ }
+ h2::after{
+    content:'';
+    position: absolute;
+    left:50%;
+    bottom:585px;
+    transform: translateX(-50%);
+    width:60px;
+    height:4px;
+    background-color:pink;
+    border-radius:2px;
+ } 
+
+ 
+#nav-bar{
      position:fixed;
      background-color:#55c1ff;
      top:0;
      display:inline-block;
+     z-index:1000;
      }
+ a{
+     text-decoration:none;
 
- 
- #welcome-link, #about-link, #project-link, #map-link,#contact-link{
+ }
+ #welcome-link, #about-link, #project-link, #media-link,#contact-link{
      background-color: pink;
-     padding:3px;
+     padding:7px;
      border-radius:10px;
      display: inline-block;
  }
- #map-link{
-     padding:2px;
+ body{
+     background-color: black;
  }
-</style>
-<body>
-<div>
-          <nav id="nav-bar">
-            <a href="#welcome"id="welcome-link">  welcome</a>
-         <a href="#about"id="about-link">about</a>
-         <a href="#project"id="project-link">project</a>
-        <a href="#contact"id="contact-link">contact</a>
-         <a href="#map"id="map-link">map</a>
-        </nav>
-     <img class="my pic"id="logo"src="new logo.jpg" alt="Billy's logo"width="350px"height="150px"><br>
-      
-    </div> 
-    <div>
-    <section id="welcome">
-      <p><h1>Welcome, my name is<br> Rabiat <br>Aliyu Abdullahi</h1></p>
-     
-        
- <img id="profile-pic"src="mypic.JPG" alt="my profile pic"></div>
- <h3>
-     
-     Hello, i am Rabiat Aliyu Abdullahi im a passionate baker ,*The Birth of [Billy's delight]*
-
-My catering service was born out of a desire to bring people together through delicious food and exceptional service. I wanted to create an experience that would leave a lasting impression, whether it's a wedding, corporate event, or intimate gathering.<br>
  
- <a href="recipes.html">for my recipes...</a>
- </h3></section>
-</body>
+    </style>
+  <body>
+      <div>
+          <nav id="nav-bar">
+            <a href="welcome.html"id="welcome-link">  welcome</a>
+         <a href="about.html"id="about-link">about</a>
+         <a href="recipes.html"id="project-link">project</a>
+        <a href="contact.html"id="contact-link">contact</a>
+         <a href="media.html"id="media-link">med</a>
+        </nav>
+     
+    </div> 
+ <div> 
+  <h2>
+      About 
+  </h2> 
+ 
+ <img id="profile-pic"src="https://i.ibb.co/Q3Cg09xw/Whats-App-Image-2025-07-04-at-12-29-21.jpg" alt="my profile pic">
+ 
+<p>*The Birth of [Billy's delight]*
+
+My catering service was born out of a desire to bring people together through delicious food and exceptional service. I wanted to create an experience that would leave a lasting impression, whether it's a wedding, corporate event, or intimate gathering.</p>
+</div></section>
+   
+         
+    </body>
 </html>
